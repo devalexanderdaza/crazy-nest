@@ -1,10 +1,21 @@
 {
   "name": "crazy-nest",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "version": "0.0.0",
+  "description": "Crazy Nest is a boilerplate for NestJS projects to get started quickly. This boilerplate includes a lot of features like easy configuration, authentication, authorization, validation, error handling, and more.",
+  "author": {
+    "name": "Alexander Daza",
+    "email": "dev.alexander.daza@gmail.com",
+    "url": "https://github.com/devalexanderdaza"
+  },
+  "contributors": [
+    {
+      "name": "Alexander Daza",
+      "email": "dev.alexander.daza@gmail.com",
+      "url": "https://github.com/devalexanderdaza"
+    }
+  ],
+  "private": false,
+  "license": "MIT",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -18,6 +29,14 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json"
+  },
+  "homepage": "https://github.com/devalexanderdaza/crazy-nest#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devalexanderdaza/crazy-nest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devalexanderdaza/crazy-nest/issues"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
@@ -66,5 +85,9 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
   },
-  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9"
+  }
 }
