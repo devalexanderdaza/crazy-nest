@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always", // Aplica todas las correcciones automáticas, incluidas las de ESLint y Prettier
+    "source.organizeImports": "always"
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.alwaysShowStatus": true, // Muestra el estado de ESLint en la barra de estado
+  "prettier.requireConfig": true, // Asegura que Prettier use el archivo de configuración del proyecto
+}

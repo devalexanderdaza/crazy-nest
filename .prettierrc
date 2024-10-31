@@ -3,10 +3,25 @@
   "singleQuote": true,
   "trailingComma": "all",
   "tabWidth": 2,
-  "printWidth": 80,
-  "endOfLine": "auto",
+  "useTabs": false,
+  "printWidth": 100,
+  "endOfLine": "lf",
   "bracketSpacing": true,
-  "jsxBracketSameLine": false,
   "arrowParens": "always",
-  "proseWrap": "preserve"
+  "quoteProps": "as-needed",
+  "embeddedLanguageFormatting": "auto",
+  "overrides": [
+    {
+      "files": "*.module.ts",
+      "options": {
+        "printWidth": 80
+      }
+    },
+    {
+      "files": "*.entity.ts",
+      "options": {
+        "printWidth": 120
+      }
+    }
+  ]
 }
